@@ -2,7 +2,7 @@ name: Scheduled Code Run
 
 on:
   schedule:
-    - cron: '15 9,10,11,12,13,14,15 * * *'  # Schedule to run at 9:15 am to 3:15 pm every day
+    - cron: '15 9,10,11,12,13,14,15,16,17 * * *'  # Schedule to run at 9:15 am to 3:15 pm every day
 
 jobs:
   run_code:
